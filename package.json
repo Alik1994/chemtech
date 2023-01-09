@@ -1,0 +1,24 @@
+{
+  "name": "chemtech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch styles/main.scss pages/main/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alik1994/chemtech.git"
+  },
+  "keywords": [
+    "expert",
+    "chemistry"
+  ],
+  "author": "Albert Lavrinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alik1994/chemtech/issues"
+  },
+  "homepage": "https://github.com/Alik1994/chemtech#readme"
+}
