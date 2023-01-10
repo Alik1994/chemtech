@@ -1,0 +1,18 @@
+.social-media {
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__whatsapp {
+    background-image: url("../../../src/icons/social-media/icon-whatsapp.svg");
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+  }
+}

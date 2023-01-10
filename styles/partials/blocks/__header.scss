@@ -1,0 +1,13 @@
+.header {
+  &__wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  &__top {
+    background-color: #fff;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

@@ -1,3 +1,37 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header__wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.header__top {
+  background-color: #fff;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.social-media__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media__link {
+  display: block;
+}
+.social-media__whatsapp {
+  background-image: url("../../../src/icons/social-media/icon-whatsapp.svg");
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
 
 /*# sourceMappingURL=style.css.map */
