@@ -11,10 +11,14 @@ body {
 .header__wrapper {
   max-width: 1600px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 .header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #fff;
-  height: 50px;
+  height: 70px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -26,12 +30,88 @@ body {
 }
 .social-media__link {
   display: block;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+.social-media__link:last-child {
+  margin-right: 15px;
 }
 .social-media__whatsapp {
-  background-image: url("../../../src/icons/social-media/icon-whatsapp.svg");
-  width: 25px;
-  height: 25px;
+  background-image: url("../../src/icons/social-media/icon-whatsapp2.svg");
+  width: 30px;
+  height: 30px;
   display: inline-block;
+  transition-property: background-image;
+  transition-duration: 500ms;
+}
+.social-media__telegramm {
+  background-image: url("../../src/icons/social-media/icon-telegramm2.svg");
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  transition-property: background-image;
+  transition-duration: 500ms;
+}
+.social-media__whatsapp:hover {
+  background-image: url("../../src/icons/social-media/icon-whatsapp.svg");
+}
+.social-media__telegramm:hover {
+  background-image: url("../../src/icons/social-media/icon-telegramm.svg");
+}
+
+.order-call__btn {
+  padding: 8px 10px;
+  border: none;
+  background-color: #228be6;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 500ms;
+}
+.order-call__btn:hover {
+  background-color: #50c878;
+}
+
+.logo__link {
+  display: block;
+  text-decoration: none;
+  width: 245px;
+  height: 60px;
+  background: url("../../src/background/logo/logo-bg.png") no-repeat right;
+  margin-right: auto;
+}
+.logo__text {
+  color: #3a628b;
+  font-size: 32px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  list-style: none;
+}
+.menu__item {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-right: 8px;
+}
+.menu__item:last-child {
+  margin-right: 20px;
+}
+.menu__link {
+  text-decoration: none;
+  color: #228be6;
+  transition-property: color;
+  transition-duration: 500ms;
+}
+.menu__link:hover {
+  color: #50c878;
 }
 
 /*# sourceMappingURL=style.css.map */

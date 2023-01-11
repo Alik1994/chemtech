@@ -2,11 +2,15 @@
   &__wrapper {
     max-width: 1600px;
     margin: 0 auto;
+    padding: 0 10px;
   }
 
   &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
-    height: 50px;
+    height: 70px;
     padding-top: 5px;
     padding-bottom: 5px;
   }

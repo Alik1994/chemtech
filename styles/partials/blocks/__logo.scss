@@ -1,0 +1,15 @@
+.logo {
+  &__link {
+    display: block;
+    text-decoration: none;
+    width: 245px;
+    height: 60px;
+    background: url("../../src/background/logo/logo-bg.png") no-repeat right;
+    margin-right: auto;
+  }
+
+  &__text {
+    color: $color-gray;
+    font-size: 32px;
+  }
+}

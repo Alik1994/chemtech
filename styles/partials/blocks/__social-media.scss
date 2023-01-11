@@ -7,12 +7,38 @@
 
   &__link {
     display: block;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+  }
+
+  &__link:last-child {
+    margin-right: 15px;
   }
 
   &__whatsapp {
-    background-image: url("../../../src/icons/social-media/icon-whatsapp.svg");
-    width: 25px;
-    height: 25px;
+    background-image: url("../../src/icons/social-media/icon-whatsapp2.svg");
+    width: 30px;
+    height: 30px;
     display: inline-block;
+    transition-property: background-image;
+    transition-duration: 500ms;
+  }
+
+  &__telegramm {
+    background-image: url("../../src/icons/social-media/icon-telegramm2.svg");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    transition-property: background-image;
+    transition-duration: 500ms;
+  }
+
+  &__whatsapp:hover {
+    background-image: url("../../src/icons/social-media/icon-whatsapp.svg");
+  }
+
+  &__telegramm:hover {
+    background-image: url("../../src/icons/social-media/icon-telegramm.svg");
   }
 }
