@@ -1,0 +1,33 @@
+.service-menu{
+  &__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-blue;
+    margin-top: 10px;
+    padding: 8px 0;
+    border-radius: 8px 8px 0 0;
+  }
+
+  &__item{
+    max-width: 150px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+  &__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    transition-property: color;
+    transition-duration: 500ms;
+  }
+
+  &__link:hover{
+    color: $color-purple;
+  }
+
+}
