@@ -142,15 +142,23 @@ body {
   color: #142276;
 }
 
-.slogans__list {
-  position: relative;
+.slogans__body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  height: 500px;
   z-index: 100;
 }
-.slogans__list::after {
+.slogans__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.slogans__body::after {
   content: "";
   display: block;
   position: absolute;

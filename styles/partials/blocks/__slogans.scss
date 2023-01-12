@@ -1,14 +1,23 @@
 .slogans{
-  &__list{
-    position: relative;
+  &__body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: 500px;
     z-index: 100;
   }
 
-  &__list::after{
+  &__video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  &__body::after{
     content:'';
     display: block;
     position: absolute;
