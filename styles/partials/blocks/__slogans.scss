@@ -1,12 +1,8 @@
 .slogans{
   &__body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    height: 500px;
-    z-index: 100;
+    padding-bottom: 45%;
+    overflow: hidden;
   }
 
   &__video{
@@ -15,6 +11,7 @@
     left: 0;
     width: 100%;
     height: auto;
+    z-index: -1;
   }
 
   &__body::after{
@@ -26,14 +23,26 @@
     width: 100%;
     height: 100%;
     background-color: $color-blue;
-    opacity: 0.6;
-    z-index: -1;
+    opacity: 0.35;
+    z-index: 20;
+  }
+
+  &__list{
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    z-index: 50;
   }
 
   &__text{
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  &__text:last-child{
+    margin-bottom: 0;
   }
 }
