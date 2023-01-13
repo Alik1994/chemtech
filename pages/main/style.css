@@ -163,21 +163,27 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #228be6;
-  opacity: 0.35;
+  background-color: #000;
+  opacity: 0.5;
   z-index: 20;
 }
 .slogans__list {
   position: absolute;
-  top: 35%;
-  left: 28%;
+  top: 25%;
+  left: 30px;
   z-index: 50;
+  transition: opacity 0.4s;
+  opacity: 0;
+}
+.slogans__list.active {
+  opacity: 1;
 }
 .slogans__text {
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 26px;
+  text-align: left;
   margin-bottom: 15px;
 }
 .slogans__text:last-child {

@@ -1,11 +1,11 @@
-.slogans{
+.slogans {
   &__body {
     position: relative;
     padding-bottom: 45%;
     overflow: hidden;
   }
 
-  &__video{
+  &__video {
     position: absolute;
     top: 0;
     left: 0;
@@ -14,35 +14,42 @@
     z-index: -1;
   }
 
-  &__body::after{
-    content:'';
+  &__body::after {
+    content: "";
     display: block;
     position: absolute;
     top: 0;
-    left:0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: $color-blue;
-    opacity: 0.35;
+    background-color: #000;
+    opacity: 0.5;
     z-index: 20;
   }
 
-  &__list{
+  &__list {
     position: absolute;
-    top: 35%;
-    left: 28%;
+    top: 25%;
+    left: 30px;
     z-index: 50;
+    transition: opacity 0.4s;
+    opacity: 0;
   }
 
-  &__text{
+  &__list.active {
+    opacity: 1;
+  }
+
+  &__text {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 26px;
+    text-align: left;
     margin-bottom: 15px;
   }
 
-  &__text:last-child{
+  &__text:last-child {
     margin-bottom: 0;
   }
 }
