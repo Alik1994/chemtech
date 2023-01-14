@@ -17,14 +17,14 @@ export const slogansArr = [
 ];
 
 function showSlogans(arr) {
-  let counter = 0;
+  let counter = 1;
 
-  setInterval(() => {
+  let interval = setInterval(() => {
     if (counter === arr.length) counter = 0;
     slogansEl.classList.toggle("active");
     setTimeout(changeSlogan, 700, arr[counter]);
     counter++;
-  }, 2000);
+  }, 2500);
 
   slogansEl.classList.toggle("active");
 }

@@ -190,4 +190,35 @@ body {
   margin-bottom: 0;
 }
 
+.section__wrapper {
+  max-width: 1600px;
+  padding: 0 10px;
+}
+
+.section-about__title {
+  padding-top: 35px;
+}
+.section-about__body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 30px;
+}
+.section-about__img {
+  margin-left: auto;
+}
+.section-about__info {
+  padding-left: 35px;
+}
+.section-about__info-text {
+  font-size: 22px;
+  text-align: justify;
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */

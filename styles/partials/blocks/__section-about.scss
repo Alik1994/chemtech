@@ -1,0 +1,28 @@
+.section-about {
+  &__wrapper {
+  }
+
+  &__title {
+    padding-top: 35px;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 30px;
+  }
+
+  &__img {
+    margin-left: auto;
+  }
+
+  &__info {
+    padding-left: 35px;
+  }
+
+  &__info-text {
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 15px;
+  }
+}
