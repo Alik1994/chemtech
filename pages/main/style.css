@@ -221,4 +221,62 @@ body {
   text-transform: uppercase;
 }
 
+.section-benefits__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.section-benefits__card {
+  background: #228be6;
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 20px 10px;
+}
+.section-benefits__card:last-child {
+  margin-right: 0;
+}
+.section-benefits__card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card__title {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.card__title_light {
+  color: #142276;
+}
+.card__info {
+  margin-top: 15px;
+  text-align: center;
+}
+.card__info_light {
+  color: #142276;
+}
+.card__info-list {
+  list-style: none;
+}
+.card__info-item {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.card__info-item_strong {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
