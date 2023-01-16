@@ -61,11 +61,11 @@
   }
 }
 
-.card_theme-light {
-  background-color: #fff;
+.card_theme-green {
+  background-color: $color-bg-green;
 
   .card__icon {
-    background-color: $color-bg-purple;
+    background-color: #fff;
   }
 
   .card__title {

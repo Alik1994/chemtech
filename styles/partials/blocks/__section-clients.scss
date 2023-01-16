@@ -1,0 +1,21 @@
+.section-clients {
+  background-color: $color-white;
+
+  &__title {
+    padding-top: 35px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: block;
+  }
+
+  &__client-img {
+    max-width: 250px;
+  }
+}
