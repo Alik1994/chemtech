@@ -24,7 +24,7 @@ function showSlogans(arr) {
     slogansEl.classList.toggle("active");
     setTimeout(changeSlogan, 700, arr[counter]);
     counter++;
-  }, 2500);
+  }, 4000);
 
   slogansEl.classList.toggle("active");
 }

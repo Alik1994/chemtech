@@ -3,23 +3,28 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 0 10px;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+  }
 
   &__title {
     font-size: 20px;
     text-transform: uppercase;
   }
 
-  &__title_light {
-    color: $color-purple;
-  }
-
   &__info {
     margin-top: 15px;
     text-align: center;
-  }
-
-  &__info_light {
-    color: $color-purple;
+    margin-bottom: 15px;
   }
 
   &__info-list {
@@ -29,9 +34,61 @@
   &__info-item {
     font-size: 18px;
     margin-bottom: 5px;
+    font-weight: 300;
   }
 
   &__info-item_strong {
-    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    color: $color-white;
+  }
+}
+
+//Themes
+.card_theme-blue {
+  background-color: $color-bg-blue;
+
+  .card__icon {
+    background-color: #fff;
+  }
+
+  .card__title {
+    color: $color-purple;
+  }
+
+  .card__info-item {
+    color: $color-purple;
+  }
+}
+
+.card_theme-light {
+  background-color: #fff;
+
+  .card__icon {
+    background-color: $color-bg-purple;
+  }
+
+  .card__title {
+    color: #000;
+  }
+
+  .card__info-item {
+    color: #000;
+  }
+}
+
+.card_theme-purple {
+  background-color: $color-purple;
+
+  .card__icon {
+    background-color: #fff;
+  }
+
+  .card__title {
+    color: $color-white;
+  }
+
+  .card__info-item {
+    color: $color-white;
   }
 }

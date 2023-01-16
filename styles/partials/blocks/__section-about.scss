@@ -1,7 +1,4 @@
 .section-about {
-  &__wrapper {
-  }
-
   &__title {
     padding-top: 35px;
   }
@@ -9,20 +6,38 @@
   &__body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 30px;
+    margin-top: 15px;
+  }
+
+  &__media {
+    display: flex;
+    justify-content: center;
+    background-color: $color-purple;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   &__img {
-    margin-left: auto;
+    align-self: center;
+    max-width: 600px;
   }
 
   &__info {
     padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $color-bg-blue;
   }
 
   &__info-text {
     font-size: 22px;
+    font-weight: 300;
     text-align: justify;
-    padding-right: 15px;
+    padding-right: 35px;
+    text-indent: 30px;
+    color: $color-purple;
+    margin-bottom: 10px;
+    line-height: 1.25;
+    hyphens: auto;
   }
 }

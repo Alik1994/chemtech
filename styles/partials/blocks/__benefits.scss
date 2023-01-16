@@ -2,30 +2,6 @@
   &__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1200px;
     margin: 0 auto;
-    margin-top: 40px;
-  }
-
-  &__card {
-    background: $color-blue;
-    margin-right: 20px;
-    border-radius: 15px;
-    padding: 20px 10px;
-  }
-
-  &__card:last-child {
-    margin-right: 0;
-  }
-
-  &__card-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 65px;
-    height: 65px;
-    margin-bottom: 15px;
-    border-radius: 50%;
-    background-color: #fff;
   }
 }
