@@ -1,0 +1,14 @@
+.section-docs {
+  &__wrapper {
+    background-color: $color-bg-gray;
+  }
+
+  &__title {
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+
+  &__title-text {
+    color: $color-white;
+  }
+}

@@ -1,12 +1,13 @@
 .section-about {
   &__title {
+    background-color: $color-bg-green;
     padding-top: 35px;
+    padding-bottom: 15px;
   }
 
   &__body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 15px;
   }
 
   &__media {
