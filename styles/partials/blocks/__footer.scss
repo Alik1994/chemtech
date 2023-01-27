@@ -1,0 +1,118 @@
+.footer {
+  padding-top: 30px;
+  font-size: 18px;
+
+  &__wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  //FOOTER-TOP
+
+  &__top {
+    background-color: $color-bg-green;
+    padding: 25px 10px;
+  }
+
+  &__top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  //Logo
+  &__logo {
+    margin-right: 30px;
+  }
+
+  &__logo-link {
+    display: block;
+    text-decoration: none;
+    width: 245px;
+    height: 60px;
+    background: url("../../src/background/logo/logo-bg.png") no-repeat right;
+  }
+
+  &__logo-text {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  //Info
+  &__info-list {
+    list-style: none;
+  }
+
+  &__info-item {
+    margin-top: 8px;
+    color: #000;
+    transition-property: color;
+    transition-duration: 500ms;
+    cursor: pointer;
+  }
+
+  &__info-item:first-child {
+    margin-top: 0;
+  }
+
+  &__info-item:hover {
+    color: #fff;
+  }
+
+  &__info-link {
+    text-decoration: none;
+    color: #000;
+    transition-property: color;
+    transition-duration: 500ms;
+  }
+
+  &__info-link:hover {
+    color: #fff;
+  }
+
+  //Menu
+
+  &__menu-list {
+    list-style: none;
+  }
+
+  &__menu-item {
+    margin-top: 8px;
+    max-width: 250px;
+  }
+
+  &__menu-item:first-child {
+    margin-top: 0;
+  }
+
+  &__menu-link {
+    text-decoration: none;
+    color: #000;
+    transition-property: color;
+    transition-duration: 500ms;
+  }
+
+  &__menu-link:hover {
+    color: #fff;
+  }
+
+  //FOOTER-BOTTOM
+  &__bottom {
+    background-color: #000;
+    padding: 15px 10px;
+    color: #fff;
+  }
+
+  &__bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  //Copyright
+  &__copyright-text {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
