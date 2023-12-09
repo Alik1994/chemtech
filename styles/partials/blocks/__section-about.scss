@@ -1,8 +1,9 @@
 .section-about {
   &__title {
-    background-color: $color-bg-green;
-    padding-top: 35px;
-    padding-bottom: 15px;
+    background-color: $color-peach;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: $color-brown;
   }
 
   &__body {
@@ -13,7 +14,7 @@
   &__media {
     display: flex;
     justify-content: center;
-    background-color: $color-purple;
+    background-color: $color-brown;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -27,7 +28,7 @@
     padding-left: 35px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: $color-bg-blue;
+    background-color: $color-leather;
   }
 
   &__info-text {
@@ -36,7 +37,7 @@
     text-align: justify;
     padding-right: 35px;
     text-indent: 30px;
-    color: $color-purple;
+    color: $color-white;
     margin-bottom: 10px;
     line-height: 1.25;
     hyphens: auto;

@@ -1,0 +1,28 @@
+.main {
+  &__wrapper {
+    padding: 0 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $color-white;
+    height: 100%;
+
+    .main__text {
+      color: $color-dark;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .main__list {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .main__list-item {
+      color: $color-dark;
+    }
+  }
+}
+
+.main__text_bold {
+  font-weight: 700;
+}

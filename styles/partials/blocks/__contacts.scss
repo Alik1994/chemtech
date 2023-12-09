@@ -1,0 +1,33 @@
+.contacts {
+  display: flex;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+    .contacts__icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 8px;
+    }
+
+    .contacts__link {
+      text-decoration: none;
+      padding: 3px 0;
+      font-size: 25px;
+      font-weight: 400;
+      color: $color-white;
+      transition-property: color;
+    }
+
+    .contacts__link:hover {
+      color: $color-gold;
+      transition-duration: 500ms;
+    }
+  }
+
+  &__item:last-child {
+    margin-right: 5px;
+  }
+}

@@ -45,24 +45,24 @@
 }
 
 //Themes
-.card_theme-blue {
-  background-color: $color-bg-blue;
+.card_theme-red {
+  background-color: rgba(209, 40, 63, 0.6);
 
   .card__icon {
     background-color: #fff;
   }
 
   .card__title {
-    color: $color-purple;
+    color: rgb(246, 191, 171);
   }
 
   .card__info-item {
-    color: $color-purple;
+    color: $color-peach;
   }
 }
 
-.card_theme-green {
-  background-color: $color-bg-green;
+.card_theme-bordo {
+  background-color: $color-bordo;
 
   .card__icon {
     background-color: #fff;
@@ -77,8 +77,8 @@
   }
 }
 
-.card_theme-purple {
-  background-color: $color-purple;
+.card_theme-dark {
+  background-color: $color-dark;
 
   .card__icon {
     background-color: #fff;

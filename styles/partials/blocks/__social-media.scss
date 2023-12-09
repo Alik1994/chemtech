@@ -24,23 +24,6 @@
     transition-duration: 500ms;
   }
 
-  //Icon blue
-  &__whatsapp_blue {
-    background-image: url("../../src/icons/social-media/icon-whatsapp2.svg");
-  }
-
-  &__telegramm_blue {
-    background-image: url("../../src/icons/social-media/icon-telegramm2.svg");
-  }
-
-  &__whatsapp_blue:hover {
-    background-image: url("../../src/icons/social-media/icon-whatsapp.svg");
-  }
-
-  &__telegramm_blue:hover {
-    background-image: url("../../src/icons/social-media/icon-telegramm.svg");
-  }
-
   //Icon white
   &__whatsapp_white {
     background-image: url("../../src/icons/social-media/icon-whatsapp-white.svg");
@@ -51,10 +34,10 @@
   }
 
   &__whatsapp_white:hover {
-    background-image: url("../../src/icons/social-media/icon-whatsapp.svg");
+    background-image: url("../../src/icons/social-media/icon-whatsapp-gold.svg");
   }
 
   &__telegramm_white:hover {
-    background-image: url("../../src/icons/social-media/icon-telegramm.svg");
+    background-image: url("../../src/icons/social-media/icon-telegramm-gold.svg");
   }
 }

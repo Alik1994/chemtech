@@ -1,0 +1,6 @@
+.collumn-2 {
+  &__wrapper {
+    display: grid;
+    grid-template-rows: 2fr, 1fr;
+  }
+}

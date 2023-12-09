@@ -1,22 +1,22 @@
 .footer {
-  padding-top: 30px;
   font-size: 18px;
 
   &__wrapper {
     max-width: 1600px;
     margin: 0 auto;
+    padding: 0 10px;
   }
 
   //FOOTER-TOP
 
   &__top {
-    background-color: $color-bg-green;
+    background-color: #000;
     padding: 25px 10px;
   }
 
   &__top-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
   }
 
@@ -34,7 +34,7 @@
   }
 
   &__logo-text {
-    color: #fff;
+    color: $color-red;
     font-size: 32px;
     font-weight: 700;
   }
@@ -46,7 +46,7 @@
 
   &__info-item {
     margin-top: 8px;
-    color: #000;
+    color: #fff;
     transition-property: color;
     transition-duration: 500ms;
     cursor: pointer;
@@ -57,18 +57,18 @@
   }
 
   &__info-item:hover {
-    color: #fff;
+    color: $color-brown;
   }
 
   &__info-link {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     transition-property: color;
     transition-duration: 500ms;
   }
 
   &__info-link:hover {
-    color: #fff;
+    color: $color-brown;
   }
 
   //Menu
@@ -88,18 +88,18 @@
 
   &__menu-link {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     transition-property: color;
     transition-duration: 500ms;
   }
 
   &__menu-link:hover {
-    color: #fff;
+    color: $color-brown;
   }
 
   //FOOTER-BOTTOM
   &__bottom {
-    background-color: #000;
+    background-color: $color-leather;
     padding: 15px 10px;
     color: #fff;
   }
