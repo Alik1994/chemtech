@@ -249,6 +249,15 @@ body {
   background: rgba(255, 217, 0, 0.702);
 }
 
+.scroll-body::-moz-scrollbar {
+  width: 5px; /* здесь задается ширина скрола, в данном случае он не будет отображен */
+  background: #fff;
+}
+
+.scroll-body::-moz-scrollbar-thumb {
+  background: rgba(255, 217, 0, 0.702);
+}
+
 .scroll-body {
   max-height: auto;
   overflow-y: auto;
