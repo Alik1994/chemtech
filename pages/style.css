@@ -521,7 +521,7 @@ body {
 }
 
 .card_theme-dark {
-  background-color: rgb(45, 32, 58);
+  background-color: rgba(191, 97, 85, 0.8);
 }
 .card_theme-dark .card__icon {
   background-color: #fff;
