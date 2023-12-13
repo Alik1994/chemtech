@@ -111,16 +111,16 @@ body {
   transition-duration: 500ms;
 }
 .social-media__whatsapp_white {
-  background-image: url("../../src/icons/social-media/icon-whatsapp-white.svg");
+  background-image: url("../src/icons/social-media/icon-whatsapp-white.svg");
 }
 .social-media__telegramm_white {
-  background-image: url("../../src/icons/social-media/icon-telegramm-white.svg");
+  background-image: url("../src/icons/social-media/icon-telegramm-white.svg");
 }
 .social-media__whatsapp_white:hover {
-  background-image: url("../../src/icons/social-media/icon-whatsapp-gold.svg");
+  background-image: url("../src/icons/social-media/icon-whatsapp-gold.svg");
 }
 .social-media__telegramm_white:hover {
-  background-image: url("../../src/icons/social-media/icon-telegramm-gold.svg");
+  background-image: url("../src/icons/social-media/icon-telegramm-gold.svg");
 }
 
 .order-call__btn {
@@ -144,7 +144,7 @@ body {
   text-decoration: none;
   width: 245px;
   height: 60px;
-  background: url("../../src/background/logo/logo-bg.png") no-repeat right;
+  background: url("../src/background/logo/logo-bg.png") no-repeat right;
   margin-right: auto;
 }
 .logo__text {
@@ -289,52 +289,52 @@ body {
 }
 
 .title-bg-tovar {
-  background: url("../../../src/background/title/tovar-title.jpg") no-repeat center;
+  background: url("../src/background/title/tovar-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-ecology {
-  background: url("../../../src/background/title/ecology-title.jpg") no-repeat center;
+  background: url("../src/background/title/ecology-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-lingvo {
-  background: url("../../../src/background/title/lingvo-title.jpg") no-repeat center;
+  background: url("../src/background/title/lingvo-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-author {
-  background: url("../../../src/background/title/author-title.jpg") no-repeat center;
+  background: url("../src/background/title/author-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-stroitel {
-  background: url("../../../src/background/title/stroitel-title.jpg") no-repeat center;
+  background: url("../src/background/title/stroitel-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-economy {
-  background: url("../../../src/background/title/economy-title.jpg") no-repeat center;
+  background: url("../src/background/title/economy-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-computer {
-  background: url("../../../src/background/title/computer-title.jpg") no-repeat center;
+  background: url("../src/background/title/computer-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-video {
-  background: url("../../../src/background/title/video-title.jpg") no-repeat center;
+  background: url("../src/background/title/video-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-photo {
-  background: url("../../../src/background/title/photo-title.jpg") no-repeat center;
+  background: url("../src/background/title/photo-title.jpg") no-repeat center;
   background-size: cover;
 }
 
 .title-bg-old {
-  background: url("../../../src/background/title//old-title.jpg") no-repeat center;
+  background: url("../src/background/title//old-title.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -342,7 +342,7 @@ body {
   position: relative;
   padding-bottom: 45%;
   overflow: hidden;
-  background: url("../../src/background/slogans/video-screenshot.png") no-repeat center;
+  background: url("../src/background/slogans/video-screenshot.png") no-repeat center;
   background-size: cover;
 }
 .slogans__video {
@@ -659,7 +659,7 @@ body {
   text-decoration: none;
   width: 245px;
   height: 60px;
-  background: url("../../src/background/logo/logo-bg.png") no-repeat right;
+  background: url("../src/background/logo/logo-bg.png") no-repeat right;
 }
 .footer__logo-text {
   color: rgba(209, 40, 63, 0.8);
