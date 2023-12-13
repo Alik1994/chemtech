@@ -112,9 +112,13 @@ body {
 }
 .social-media__whatsapp_white {
   background-image: url("../src/icons/social-media/icon-whatsapp-white.svg");
+  transition-property: background-image;
+  transition-duration: 500ms;
 }
 .social-media__telegramm_white {
   background-image: url("../src/icons/social-media/icon-telegramm-white.svg");
+  transition-property: background-image;
+  transition-duration: 500ms;
 }
 .social-media__whatsapp_white:hover {
   background-image: url("../src/icons/social-media/icon-whatsapp-gold.svg");
