@@ -146,7 +146,7 @@ body {
   text-decoration: none;
   width: 245px;
   height: 60px;
-  background: url("../src/background/logo/logo-bg.png") no-repeat right;
+  background: url("../src/background/logo/logo-bg.png") no-repeat bottom right 15px;
   margin-right: auto;
 }
 .logo__text {
@@ -668,7 +668,7 @@ body {
   text-decoration: none;
   width: 245px;
   height: 60px;
-  background: url("../src/background/logo/logo-bg.png") no-repeat right;
+  background: url("../src/background/logo/logo-bg.png") no-repeat bottom right 15px;
 }
 .footer__logo-text {
   color: rgba(209, 40, 63, 0.8);
