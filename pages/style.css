@@ -343,7 +343,27 @@ body {
 }
 
 .title-bg-old {
-  background: url("../src/background/title//old-title.jpg") no-repeat center;
+  background: url("../src/background/title/old-title.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title-bg-car {
+  background: url("../src/background/title/car-title.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title-bg-phone {
+  background: url("../src/background/title/phone-title.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title-bg-land {
+  background: url("../src/background/title/land-title.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title-bg-patent {
+  background: url("../src/background/title/patent-title.jpg") no-repeat bottom;
   background-size: cover;
 }
 
