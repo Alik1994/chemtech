@@ -367,6 +367,26 @@ body {
   background-size: cover;
 }
 
+.title-bg-polygraph {
+  background: url("../src/background/title/polygraph-title.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title-bg-psycho {
+  background: url("../src/background/title/psycho-title.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title-bg-law {
+  background: url("../src/background/title/law-title.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title-bg-portrait {
+  background: url("../src/background/title/portrait-title.jpg") no-repeat top;
+  background-size: cover;
+}
+
 .slogans__body {
   position: relative;
   padding-bottom: 45%;
