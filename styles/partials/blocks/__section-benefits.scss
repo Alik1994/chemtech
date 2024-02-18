@@ -5,3 +5,13 @@
     margin: 0 auto;
   }
 }
+
+//Медиа-запросы
+@media (max-width: 1063px) {
+  .section-benefits {
+    &__cards {
+      grid-template-columns: none;
+      grid-template-rows: repeat (3, 1fr);
+    }
+  }
+}

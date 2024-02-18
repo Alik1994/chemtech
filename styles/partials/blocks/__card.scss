@@ -92,3 +92,20 @@
     color: $color-white;
   }
 }
+
+//Медиа-запросы
+@media (max-width: 1183px) {
+  .card {
+    &__title {
+      font-size: 18px;
+    }
+
+    &__info-item {
+      font-size: 16px;
+    }
+
+    &__info-item_strong {
+      font-size: 16px;
+    }
+  }
+}

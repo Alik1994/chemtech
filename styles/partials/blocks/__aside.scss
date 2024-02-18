@@ -25,6 +25,10 @@
             color: $color-brown;
           }
         }
+
+        .aside__list-link_disabled {
+          color: gray !important;
+        }
       }
     }
   }
@@ -32,4 +36,5 @@
 
 .active {
   color: $color-bordo !important;
+  pointer-events: none;
 }

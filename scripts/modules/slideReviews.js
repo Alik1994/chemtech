@@ -23,16 +23,20 @@ function slideReviews() {
 
   //1. Проверка ширины экрана
 
-  if (width < 1600 && width >= 1100) {
+  if ((width < 1600 && width >= 1100) || width > 1600) {
     numOfMarks = 6;
     step = 1;
     //Увеличить размер видимой части
     sliderWindow.style.maxWidth = "1045px";
-  } else if (width < 1100) {
+  } else if (width < 1100 && width > 815) {
     numOfMarks = 3;
     step = 3;
     //Уменьшить размер видимой части
     sliderWindow.style.maxWidth = "780px";
+  } else if (width < 815) {
+    numOfMarks = 9;
+    step = 1;
+    sliderWindow.style.maxWidth = "250px";
   }
 
   //2. Создаем метки

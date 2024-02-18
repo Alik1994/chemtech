@@ -5,4 +5,5 @@ showSlogans(slogansArr);
 
 //Cлайдер
 window.addEventListener("resize", slideReviews);
+window.addEventListener("load", slideReviews);
 slideReviews();

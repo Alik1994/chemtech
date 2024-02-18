@@ -29,6 +29,10 @@
     transition-duration: 500ms;
   }
 
+  &__sublink_disabled {
+    color: gray !important;
+  }
+
   &__link:hover {
     color: $color-dark;
   }

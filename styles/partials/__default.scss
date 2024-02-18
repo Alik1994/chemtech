@@ -7,3 +7,7 @@
 body {
   background-color: $color-dark;
 }
+
+.disabled {
+  pointer-events: none;
+}

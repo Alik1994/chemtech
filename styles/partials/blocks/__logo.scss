@@ -1,16 +1,30 @@
 .logo {
   &__link {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-decoration: none;
     width: 245px;
     height: 60px;
-    background: url("../src/background/logo/logo-bg.png") no-repeat bottom right
-      15px;
     margin-right: auto;
   }
 
-  &__text {
-    color: $color-red;
+  &__square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+  }
+
+  &__square-text {
     font-size: 32px;
+    color: #000;
+  }
+
+  &__text {
+    font-size: 32px;
+    color: #fff;
   }
 }
