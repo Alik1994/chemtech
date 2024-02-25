@@ -557,7 +557,6 @@ body {
   }
 }
 .section__wrapper {
-  max-width: 1600px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -865,7 +864,6 @@ body {
   font-size: 18px;
 }
 .footer__wrapper {
-  max-width: 1600px;
   margin: 0 auto;
   padding: 0 10px;
 }
