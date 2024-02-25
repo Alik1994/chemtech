@@ -1,6 +1,3 @@
-//Массив с отзывами
-const reviewsArr = document.querySelectorAll(".section-reviews__gradient");
-
 //Слайдер-трэк
 const sliderTrack = document.querySelector(".slider__track");
 

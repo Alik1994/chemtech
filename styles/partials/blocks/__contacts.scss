@@ -31,3 +31,17 @@
     margin-right: 5px;
   }
 }
+
+//Медиа-запросы
+@media (max-width: 550px) {
+  .contacts {
+    flex-direction: column;
+    &__item {
+      margin-right: 0px;
+    }
+    &__item:last-child {
+      margin-top: 10px;
+      margin-right: 0px;
+    }
+  }
+}

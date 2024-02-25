@@ -1,20 +1,30 @@
 .service-menu {
-  &__list,
-  &__submenu {
-    list-style: none;
-    background-color: $color-bordo;
-  }
+  display: flex;
+  padding: 16px 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-radius: 8px 8px 0 0;
+  background-color: $color-bordo;
 
   &__list {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 10px;
-    border-radius: 8px 8px 0 0;
+    margin-right: auto;
+    flex: 1;
+  }
+
+  &__list,
+  &__submenu {
+    list-style: none;
+  }
+
+  &__submenu {
+    background-color: $color-bordo;
   }
 
   &__item {
-    padding: 16px 0;
     text-align: center;
   }
 
@@ -74,6 +84,28 @@
   }
 }
 
+//Стрелка
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid $color-white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+
+  &__img {
+    width: 15px;
+    height: 15px;
+  }
+
+  &__img_rotated {
+    transform: rotate(180deg);
+  }
+}
+
 //Настройка скролл-бара
 .scroll-body::-webkit-scrollbar {
   width: 5px; /* здесь задается ширина скрола, в данном случае он не будет отображен */
@@ -94,4 +126,18 @@
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: $color-gold #fff;
+}
+
+//Медиа-запросы
+@media (max-width: 550px) {
+  .service-menu {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+
+    &__sublist:hover &__submenu {
+      display: none;
+    }
+  }
 }

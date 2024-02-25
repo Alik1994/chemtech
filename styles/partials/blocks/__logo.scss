@@ -20,11 +20,18 @@
 
   &__square-text {
     font-size: 32px;
-    color: #000;
+    color: $color-white;
   }
 
   &__text {
     font-size: 32px;
-    color: #fff;
+    color: $color-white;
+  }
+}
+
+@media (max-width: 810px) {
+  .header__logo {
+    margin-right: 0;
+    margin-bottom: 25px;
   }
 }

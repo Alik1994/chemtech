@@ -30,6 +30,8 @@ function showSlogans(arr) {
 }
 
 function changeSlogan(arr) {
+  let width = window.innerWidth;
+
   slogansEl.classList.toggle("active");
   //Очистить содержимое
   slogansEl.innerHTML = "";
