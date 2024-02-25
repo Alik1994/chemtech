@@ -211,7 +211,7 @@ body {
   transition-property: color;
 }
 .contacts__item .contacts__link:hover {
-  color: rgba(255, 217, 0, 0.702);
+  color: rgb(180, 47, 47);
   transition-duration: 500ms;
 }
 .contacts__item:last-child {
@@ -485,7 +485,7 @@ body {
 
 .slogans__body {
   position: relative;
-  padding-bottom: 30%;
+  padding-bottom: 20%;
   overflow: hidden;
   background: url("../src/background/slogans/video-screenshot.png") no-repeat center;
   background-size: cover;
