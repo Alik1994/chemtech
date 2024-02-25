@@ -176,7 +176,7 @@ body {
 }
 .logo__square-text {
   font-size: 32px;
-  color: #000;
+  color: #fff;
 }
 .logo__text {
   font-size: 32px;
@@ -345,6 +345,7 @@ body {
 @media (max-width: 550px) {
   .service-menu {
     display: block;
+    padding: 16px 0px;
     flex-direction: column;
     align-items: flex-start;
     flex: 1;
@@ -484,7 +485,7 @@ body {
 
 .slogans__body {
   position: relative;
-  padding-bottom: 45%;
+  padding-bottom: 30%;
   overflow: hidden;
   background: url("../src/background/slogans/video-screenshot.png") no-repeat center;
   background-size: cover;
@@ -557,6 +558,7 @@ body {
   }
 }
 .section__wrapper {
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 10px;
 }
