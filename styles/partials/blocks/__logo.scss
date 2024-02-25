@@ -12,10 +12,11 @@
   &__square {
     display: flex;
     justify-content: center;
+    border-radius: 8px;
     align-items: center;
     width: 60px;
     height: 60px;
-    background-color: red;
+    background-color: rgb(180, 47, 47);
   }
 
   &__square-text {

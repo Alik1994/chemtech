@@ -83,7 +83,6 @@ body {
 }
 
 .header__wrapper {
-  max-width: 1600px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -169,10 +168,11 @@ body {
 .logo__square {
   display: flex;
   justify-content: center;
+  border-radius: 8px;
   align-items: center;
   width: 60px;
   height: 60px;
-  background-color: red;
+  background-color: rgb(180, 47, 47);
 }
 .logo__square-text {
   font-size: 32px;
@@ -232,12 +232,11 @@ body {
 }
 .service-menu {
   display: flex;
-  padding: 16px 0;
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
   border-radius: 8px 8px 0 0;
-  background-color: rgb(125, 43, 65);
+  background-color: rgb(180, 47, 47);
 }
 .service-menu__list {
   display: flex;
@@ -254,6 +253,7 @@ body {
 }
 .service-menu__item {
   text-align: center;
+  padding: 16px 0;
 }
 .service-menu__link, .service-menu__sublink {
   text-decoration: none;

@@ -1,11 +1,10 @@
 .service-menu {
   display: flex;
-  padding: 16px 0;
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
   border-radius: 8px 8px 0 0;
-  background-color: $color-bordo;
+  background-color: rgb(180, 47, 47);
 
   &__list {
     display: flex;
@@ -26,6 +25,7 @@
 
   &__item {
     text-align: center;
+    padding: 16px 0;
   }
 
   &__link,
