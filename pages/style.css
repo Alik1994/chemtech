@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background-color: rgb(45, 32, 58);
+  background-color: white;
 }
 
 .disabled {
@@ -176,11 +176,11 @@ body {
 }
 .logo__square-text {
   font-size: 32px;
-  color: rgb(255, 225, 240);
+  color: #000;
 }
 .logo__text {
   font-size: 32px;
-  color: rgb(255, 225, 240);
+  color: #000;
 }
 
 @media (max-width: 810px) {
@@ -207,7 +207,7 @@ body {
   padding: 3px 0;
   font-size: 25px;
   font-weight: 400;
-  color: rgb(255, 225, 240);
+  color: #000;
   transition-property: color;
 }
 .contacts__item .contacts__link:hover {
@@ -474,6 +474,11 @@ body {
 
 .title-bg-portrait {
   background: url("../src/background/title/portrait-title.jpg") no-repeat top;
+  background-size: cover;
+}
+
+.title-bg-contacts {
+  background: url("../src/background/title/contacts.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -779,6 +784,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(45, 32, 58);
 }
 .section-reviews__title {
   padding-top: 35px;
