@@ -1,6 +1,6 @@
 .aside {
   grid-column: 2/3;
-  background-color: $color-peach;
+  background-color: $color-red;
   &__wrapper {
     .aside__list {
       margin-top: 20px;
@@ -17,12 +17,12 @@
 
         .aside__list-link {
           text-decoration: none;
-          color: $color-bg-purple;
+          color: $color-white;
           transition-property: color;
           transition-duration: 500ms;
 
           &:hover {
-            color: $color-brown;
+            color: $color-gold;
           }
         }
 
@@ -35,6 +35,6 @@
 }
 
 .active {
-  color: $color-bordo !important;
+  color: $color-gold !important;
   pointer-events: none;
 }

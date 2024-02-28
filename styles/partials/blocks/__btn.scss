@@ -1,0 +1,15 @@
+.btn {
+  background-color: $color-white;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &__text {
+    padding: 10px 15px;
+  }
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-black;
+    font-weight: 700;
+  }
+}

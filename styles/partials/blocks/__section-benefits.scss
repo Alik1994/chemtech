@@ -1,6 +1,16 @@
 .section-benefits {
+  max-width: 1600px;
+  margin: 0 auto;
+
+  &__title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $color-black;
+  }
+
   &__cards {
     display: grid;
+    gap: 25px;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
   }

@@ -34,9 +34,8 @@
   }
 
   &__logo-text {
-    color: $color-red;
+    color: $color-white;
     font-size: 32px;
-    font-weight: 700;
   }
 
   //Info
@@ -68,7 +67,7 @@
   }
 
   &__info-link:hover {
-    color: $color-brown;
+    color: $color-red;
   }
 
   //Menu
@@ -99,9 +98,9 @@
 
   //FOOTER-BOTTOM
   &__bottom {
-    background-color: $color-leather;
+    background-color: $color-red;
     padding: 15px 10px;
-    color: #fff;
+    color: $color-white;
   }
 
   &__bottom-content {

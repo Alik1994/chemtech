@@ -3,8 +3,6 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
-  border-radius: 8px 8px 0 0;
-  background-color: rgb(180, 47, 47);
 
   &__list {
     display: flex;
@@ -20,7 +18,7 @@
   }
 
   &__submenu {
-    background-color: rgb(180, 47, 47);
+    background-color: $color-black;
   }
 
   &__item {
@@ -28,12 +26,19 @@
     padding: 16px 0;
   }
 
+  &__link {
+    color: $color-black;
+  }
+
+  &__sublink {
+    color: $color-white;
+  }
+
   &__link,
   &__sublink {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    color: $color-white;
     font-size: 14px;
     transition-property: color;
     transition-duration: 500ms;
@@ -44,11 +49,11 @@
   }
 
   &__link:hover {
-    color: $color-dark;
+    color: $color-red;
   }
 
   &__sublink:hover {
-    color: $color-gold;
+    color: $color-red;
   }
 
   &__sublist {
@@ -113,7 +118,7 @@
 }
 
 .scroll-body::-webkit-scrollbar-thumb {
-  background: $color-gold;
+  background: $color-red;
 }
 
 .scroll-body::-webkit-scrollbar {
@@ -125,7 +130,7 @@
   max-height: auto;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: $color-gold #fff;
+  scrollbar-color: $color-red #fff;
 }
 
 //Медиа-запросы
@@ -136,6 +141,24 @@
     flex-direction: column;
     align-items: flex-start;
     flex: 1;
+    border-radius: 8px 8px 0 0;
+    background-color: $color-red;
+
+    &__link {
+      color: $color-white;
+    }
+
+    &__link:hover {
+      color: $color-gold;
+    }
+
+    &__sublink:hover {
+      color: $color-gold;
+    }
+
+    &__submenu {
+      background-color: $color-red;
+    }
 
     &__sublist:hover &__submenu {
       display: none;

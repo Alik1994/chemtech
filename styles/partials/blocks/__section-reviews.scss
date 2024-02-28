@@ -4,12 +4,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: $color-dark;
   }
 
   &__title {
     padding-top: 35px;
     margin-bottom: 35px;
+    color: $color-black;
   }
 
   //Review cards
@@ -23,7 +23,7 @@
     min-width: 250px;
     width: 250px;
     height: 350px;
-    background: linear-gradient(139deg, #142276, #c88f5f, #2a7281);
+    background: linear-gradient(139deg, #b42f2f, #000, #fff);
   }
 
   &__gradient:last-child {
