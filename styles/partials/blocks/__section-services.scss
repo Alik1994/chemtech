@@ -1,0 +1,131 @@
+.section-services {
+  &__title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $color-black;
+  }
+
+  &__tags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
+  &__tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-black;
+    padding: 5px 10px;
+    border: 2px solid $color-red;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+
+    &_active {
+      background-color: $color-black;
+      color: $color-white;
+      border-color: $color-black;
+    }
+
+    &_disabled {
+      background-color: gray;
+      border-color: gray;
+      color: $color-white;
+      pointer-events: none;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 32%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(190, 182, 182);
+    margin-bottom: 15px;
+    margin-right: 10px;
+  }
+
+  &__card:last-child {
+    margin-right: 0;
+  }
+
+  &__card-content {
+    color: $color-black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  &__card-img {
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+  }
+
+  &__card-info {
+    margin-bottom: 15px;
+  }
+
+  &__card-title {
+    margin-bottom: 10px;
+  }
+
+  &__card-link {
+    display: block;
+    margin-top: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-white;
+    background-color: $color-red;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+}
+
+//Адаптиив
+@media (max-width: 1400px) {
+  .section-services {
+    &__cards {
+      justify-content: space-around;
+    }
+    &__card {
+      flex: 0 1 49%;
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 1018px) {
+  .section-services {
+    &__card {
+      flex: 0 1 48%;
+    }
+  }
+}
+
+@media (max-width: 940px) {
+  .section-services {
+    &__card {
+      flex: 0 1 45%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .section-services {
+    &__card {
+      flex: 0 1 99%;
+    }
+  }
+}

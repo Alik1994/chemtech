@@ -588,6 +588,111 @@ body {
   padding: 0 10px;
 }
 
+.section-services__title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #000;
+}
+.section-services__tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+.section-services__tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 5px 10px;
+  border: 2px solid rgb(180, 47, 47);
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.section-services__tag_active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+.section-services__tag_disabled {
+  background-color: gray;
+  border-color: gray;
+  color: #fff;
+  pointer-events: none;
+}
+.section-services__cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.section-services__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 32%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgb(190, 182, 182);
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.section-services__card:last-child {
+  margin-right: 0;
+}
+.section-services__card-content {
+  color: #000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.section-services__card-img {
+  margin-right: 15px;
+  width: 100px;
+  height: 100px;
+}
+.section-services__card-info {
+  margin-bottom: 15px;
+}
+.section-services__card-title {
+  margin-bottom: 10px;
+}
+.section-services__card-link {
+  display: block;
+  margin-top: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgb(180, 47, 47);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1400px) {
+  .section-services__cards {
+    justify-content: space-around;
+  }
+  .section-services__card {
+    flex: 0 1 49%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 1018px) {
+  .section-services__card {
+    flex: 0 1 48%;
+  }
+}
+@media (max-width: 940px) {
+  .section-services__card {
+    flex: 0 1 45%;
+  }
+}
+@media (max-width: 900px) {
+  .section-services__card {
+    flex: 0 1 99%;
+  }
+}
 .section-about {
   margin-bottom: 20px;
 }
