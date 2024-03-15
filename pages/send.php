@@ -21,6 +21,7 @@ $phone = trim($phone);
 $text = trim($text);
 
 
+
 if (mail("albert_lavr@mail.ru", "Заявка с сайта", "Имя: .$name \n Email: .$email \n Телефон: .$phone \n Сообщение: .$text")) {
   echo "Сообщение успешно отправлено";
 } else {

@@ -28,4 +28,3 @@ createCards(0);
 
 //Форма заявки
 validateForm();
-submit.addEventListener("click", sendEmail);
