@@ -11,12 +11,14 @@
 
       .aside__list-item {
         text-transform: uppercase;
+        font-size: 14px;
         font-weight: 700;
         padding-top: 5px;
         padding-bottom: 5px;
 
         .aside__list-link {
           text-decoration: none;
+
           color: $color-white;
           transition-property: color;
           transition-duration: 500ms;
@@ -37,4 +39,10 @@
 .active {
   color: $color-gold !important;
   pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .aside {
+    display: none;
+  }
 }

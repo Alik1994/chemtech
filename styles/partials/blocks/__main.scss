@@ -27,3 +27,11 @@
 .main__text_bold {
   font-weight: 700;
 }
+
+@media (max-width: 600px) {
+  .main {
+    &__wrapper {
+      padding-right: 8px;
+    }
+  }
+}

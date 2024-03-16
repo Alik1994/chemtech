@@ -16,28 +16,44 @@
   <div class="header">
     <div class="header__wrapper">
       <div class="header__top">
-        <a class="logo logo__link" href="index.html">
-          <h1 class="logo__text">RED EXPERT</h1>
+        <a class="logo logo__link header__logo" href="index.html">
+          <div class="logo__square">
+            <div class="logo__square-text">RE</div>
+          </div>
+          <div class="logo__text">RED EXPERT</div>
         </a>
         <div class="contacts">
           <div class="contacts__item">
             <img class="contacts__icon" src="../src/icons/mail.png" alt="Mail icon">
-            <a class="contacts__link" href="#">info@blabla.ru</a>
+            <a class="contacts__link" href="mailto:red.exp@yandex.ru">red.exp@yandex.ru</a>
           </div>
           <div class="contacts__item">
             <img class="contacts__icon" src="../src/icons/phone.png" alt="Phone icon">
-            <a class="contacts__link" href="#">+7999999999</a>
+            <a class="contacts__link" href="tel:+79257359797">+7 (925) 735-97-97</a>
           </div>
         </div>
       </div>
       <div class="header__bottom">
         <div class="service-menu">
-          <ul class="service-menu__list">
+          <div class="burger-menu inactive">
+            <div class="burger-menu__line"></div>
+            <div class="burger-menu__line"></div>
+            <div class="burger-menu__line"></div>
+          </div>
+          <div class="cross inactive">
+            x
+          </div>
+          <ul class="service-menu__list" id="serviceMenuList">
             <li class="service-menu__item">
               <a href="index.html" class="service-menu__link">Главная</a>
             </li>
             <li class="service-menu__item service-menu__sublist">
-              <a href="#" class="service-menu__link">Экспертиза</a>
+              <div class="service-menu__wrapper">
+                <a href="#" class="service-menu__link">Экспертиза</a>
+                <div class="arrow inactive">
+                  <img src="../src/icons/arrow.svg" alt="Arrow" class="arrow__img">
+                </div>
+              </div>
               <ul class="service-menu__submenu scroll-body">
                 <li class="service-menu__subitem">
                   <a href="page-2-1.html" class="service-menu__sublink">Химическая экспертиза</a>
@@ -169,7 +185,12 @@
               </ul>
             </li>
             <li class="service-menu__item service-menu__sublist">
-              <a href="#" class="service-menu__link">Оценка</a>
+              <div class="service-menu__wrapper">
+                <a href="#" class="service-menu__link">Оценка</a>
+                <div class="arrow inactive">
+                  <img src="../src/icons/arrow.svg" alt="Arrow" class="arrow__img">
+                </div>
+              </div>
               <ul class="service-menu__submenu scroll-body">
                 <li class="service-menu__subitem disabled disabled">
                   <a href="page-3-1.html" class="service-menu__sublink service-menu__sublink_disabled">Оценка объектов
@@ -211,7 +232,12 @@
               </ul>
             </li>
             <li class="service-menu__item service-menu__sublist">
-              <a href="#" class="service-menu__link">Рецензирование</a>
+              <div class="service-menu__wrapper">
+                <a href="#" class="service-menu__link">Рецензирование</a>
+                <div class="arrow inactive">
+                  <img src="../src/icons/arrow.svg" alt="Arrow" class="arrow__img">
+                </div>
+              </div>
               <ul class="service-menu__submenu scroll-body">
                 <li class="service-menu__subitem disabled">
                   <a href="page-4-1.html" class="service-menu__sublink service-menu__sublink_disabled">Рецензия на
@@ -362,7 +388,7 @@
               <a href="#" class="service-menu__link">Вопросы</a>
             </li>
             <li class="service-menu__item">
-              <a href="#" class="service-menu__link">Контакты</a>
+              <a href="contacts.html" class="service-menu__link">Контакты</a>
             </li>
           </ul>
         </div>
@@ -554,11 +580,14 @@
       </aside>
     </div>
   </section>
-  <footer class="footer">
+  <footer class="footer footer__wrapper">
     <div class="footer__top">
-      <div class="footer__wrapper footer__top-content">
-        <a class="footer__logo footer__logo-link" href="#">
-          <p class="footer__logo-text">RED EXPERT</p>
+      <div class="footer__top-content">
+        <a class="footer__logo footer__logo-link" href="index.html">
+          <div class="logo__square">
+            <div class="logo__square-text">RE</div>
+          </div>
+          <div class="footer__logo-text">RED EXPERT</div>
         </a>
         <div class="footer__info">
           <ul class="footer__info-list">
@@ -566,18 +595,17 @@
               <a href="tel:+79257539797" class="footer__info-link">+7 (925) 753-97-97</a>
             </li>
             <li class="footer__info-item">
-              <a href="mailto:himteh.exp@yandex.ru" class="footer__info-link">himteh.exp@yandex.ru</a>
+              <a href="mailto:red.exp@yandex.ru" class="footer__info-link">red.exp@yandex.ru</a>
             </li>
-            <li class="footer__info-item">Одинцово, ул. Белорусская, д. 4</li>
           </ul>
         </div>
         <div class="footer__menu">
           <ul class="footer__menu-list">
             <li class="footer__menu-item">
-              <a href="index.html" class="footer__menu-link">Главная</a>
+              <a href="#" class="footer__menu-link">Главная</a>
             </li>
             <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Экспертизы</a>
+              <a href="page-2-1.html" class="footer__menu-link">Экспертизы</a>
             </li>
             <li class="footer__menu-item">
               <a href="#" class="footer__menu-link">Рецензирование</a>
@@ -596,7 +624,7 @@
               <a href="#" class="footer__menu-link">Вопросы</a>
             </li>
             <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Контакты</a>
+              <a href="contacts.html" class="footer__menu-link">Контакты</a>
             </li>
           </ul>
         </div>
@@ -604,9 +632,9 @@
 
     </div>
     <div class="footer__bottom">
-      <div class="footer__wrapper footer__bottom-content">
+      <div class="footer__bottom-content">
         <div class="footer__copyright">
-          <p class="footer__copyright-text">&#169; 2023 CHEMTECHEXP.RU</p>
+          <p class="footer__copyright-text">&#169; 2023 REDEXPERT.RU</p>
         </div>
         <div class="social-media">
           <div class="social-media__body">
@@ -622,6 +650,7 @@
 
     </div>
   </footer>
+  <script src="../scripts/index.js" type="module"></script>
 </body>
 
 </html>
