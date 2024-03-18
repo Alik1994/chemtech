@@ -6,7 +6,7 @@ function sendEmail() {
   form.addEventListener("submit", function (event) {
     event.preventDefault();
     // these IDs from the previous steps
-    emailjs.sendForm("contact_service", "contact_form", this).then(
+    emailjs.sendForm("service_contact", "contact_form", this).then(
       () => {
         console.log("SUCCESS!");
         inputName.value = "";

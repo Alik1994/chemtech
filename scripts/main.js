@@ -7,8 +7,6 @@ import { sendEmail } from "./modules/sendEmail.js";
 
 const tags = document.querySelectorAll(".section-services__tag");
 
-showSlogans(slogansArr);
-
 //Cлайдер
 window.addEventListener("resize", slideReviews);
 window.addEventListener("load", slideReviews);

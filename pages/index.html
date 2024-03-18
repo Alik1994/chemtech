@@ -13,6 +13,9 @@
 </head>
 
 <body>
+  <a class="support-anchor" href="#support">
+    <img src="../src/icons/anchor-icon.png" class="support-anchor__icon" alt="Contact us">
+  </a>
   <div class="header">
     <div class="header__wrapper">
       <div class="header__top">
@@ -401,6 +404,25 @@
               <p class="slogans__text">Экспертная и независимая оценка</p>
             </div>
           </div>
+          <div class="slogans__form">
+            <h3 class="slogans__form-title">Оставьте заявку на консультацию</h3>
+            <p class="slogans__form-text">
+              Наши специалисты свяжутся <br> с Вами в ближайшее время
+            </p>
+            <form method="post" class="slogans__form-content" id="contact-form">
+              <input type="text" name="user_name" placeholder="Имя" id="name" required>
+              <input type="email" name="user_email" placeholder="E-mail" id="email" required>
+              <input type="text" name="user_phone" placeholder="Телефон" id="cellphone" required>
+              <textarea name="message" id="question" cols="30" rows="10"
+                placeholder="Опишите кратко суть вопроса"></textarea>
+              <div class="slogans__form-privacy">
+                <input type="checkbox" id="privacy" required><label for="privacy" class="slogans__label-text">Согласен с
+                  <a href="privacy.html">политикой
+                    конфиденциальности</a></label>
+              </div>
+              <input type="submit" id="submit" value="Отправить">
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -702,7 +724,7 @@
       </div>
     </div>
   </section>
-  <section class="section-support section">
+  <section class="section-support section" id="support">
     <div class="section__wrapper section-support__wrapper">
       <div class="section-support__title title">
         <h2 class="section-support__title-text">Остались вопросы? Напишите нам</h2>
@@ -718,6 +740,12 @@
           <input type="text" name="user_phone" placeholder="Телефон" id="cellphone" required>
           <textarea name="message" id="question" cols="30" rows="10"
             placeholder="Опишите кратко суть вопроса"></textarea>
+          <div class="section-support__form-privacy">
+            <input type="checkbox" id="privacy" required><label for="privacy"
+              class="section-support__label-text">Согласен с
+              <a href="privacy.html">политикой
+                конфиденциальности</a></label>
+          </div>
           <input type="submit" id="submit" value="Отправить">
         </form>
       </div>
@@ -797,7 +825,7 @@
   <script type="text/javascript">
     (function () {
       emailjs.init({
-        publicKey: "VKn7b-BqC_0Ve_1oo",
+        publicKey: "nPzciWchpJGjRzLrB",
       });
     })();
   </script>
