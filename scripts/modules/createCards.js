@@ -33,7 +33,7 @@ function createCard(data) {
     <div class="section-services__card">
   <div class="section-services__card-content">
     <div class="section-services__card-media">
-      <img src="../src/icons/services/${data.icon}" alt="Icon" class="section-services__card-img">
+      <img src="src/icons/services/${data.icon}" alt="Icon" class="section-services__card-img">
     </div>
     <div class="section-services__card-info">
       <h3 class="section-services__card-title">${data.title}</h3>
