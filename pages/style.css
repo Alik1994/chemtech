@@ -391,6 +391,9 @@ body {
     border-radius: 8px 8px 0 0;
     background-color: rgb(180, 47, 47);
   }
+  .service-menu__list {
+    display: none;
+  }
   .service-menu__link {
     color: #fff;
   }
@@ -1227,6 +1230,10 @@ body {
 .input_invalid {
   background-color: rgba(180, 47, 47, 0.6);
   color: #fff;
+}
+
+.btn_disabled {
+  pointer-events: none;
 }
 
 @media (max-width: 1250px) {

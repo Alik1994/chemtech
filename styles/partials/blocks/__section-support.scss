@@ -111,6 +111,10 @@
   color: $color-white;
 }
 
+.btn_disabled {
+  pointer-events: none;
+}
+
 @media (max-width: 1250px) {
   .section-support {
     display: block;
