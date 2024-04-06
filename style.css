@@ -46,6 +46,13 @@ body {
 
 .main__text_bold {
   font-weight: 700;
+  color: black;
+}
+
+.main__text_bold-padding {
+  display: block;
+  font-weight: 700;
+  padding-top: 10px;
 }
 
 @media (max-width: 600px) {
@@ -552,6 +559,11 @@ body {
 
 .title-bg-about {
   background: url("src/background/title/about-title.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.title-bg-privacy {
+  background: url("src/background/title/privacy-title.jpg") no-repeat center;
   background-size: cover;
 }
 

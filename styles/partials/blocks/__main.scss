@@ -26,6 +26,13 @@
 
 .main__text_bold {
   font-weight: 700;
+  color: black;
+}
+
+.main__text_bold-padding {
+  display: block;
+  font-weight: 700;
+  padding-top: 10px;
 }
 
 @media (max-width: 600px) {
